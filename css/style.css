@@ -389,6 +389,7 @@ a:visited {
 .flecha-contacto {
     padding-top: 50px;
     font-size: 30px;
+    color: black;
 }
 .form-contacto-col {
     display: flex;
