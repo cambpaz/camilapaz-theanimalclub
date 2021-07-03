@@ -1,0 +1,110 @@
+@import "tamanios";
+
+$negro:black;
+$blanco:white;
+$colorbg:#D1C8BE;
+$celeste: #ABD9C0;
+$bordesnegros:1px solid black;
+$coral: #DB7F57;
+$dorado: #b29962;
+
+@mixin estiloboton{
+    background-color: antiquewhite;
+    border: antiquewhite;
+    text-transform: uppercase;
+    transition: 1s;
+}
+@mixin efectosubrayado {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    transition: 1.5s;
+}
+@mixin efectosombreado {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+$botones:(
+    comprar: #b29962,
+    footer: $dorado,
+    adoptar: antiquewhite,
+    turnos: antiquewhite
+);
+
+li {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $negro;
+} 
+a:visited {
+    color: $negro;
+}
+.seccionprincipal {
+    color: $negro;
+}
+.home-links {
+    border: $bordesnegros;
+    background: transparent;
+    &:hover {
+        border: 1px solid black;
+        background: black;
+        color: white;
+        transition: 1s;
+    }
+}
+.colorHeader {
+    background-color: $colorbg;
+}
+.footer {
+    background-color: $colorbg;
+}
+.btn-footer {
+    background-color: map-get($map: $botones, $key:footer );
+    border-radius: 0.5px;
+    border-color: $dorado;
+    padding: 2px $paddingxs;
+    &:hover {
+        @include efectosombreado;
+        transition: 1s;
+    }
+}
+.portada-servicios::after {
+    @include efectosubrayado;
+}
+.portada-servicios:hover::after {
+    width: 100%;
+}
+.servicios-column {
+    background-color: $celeste;
+}
+.servicios-column:hover{
+    @include efectosombreado;
+}
+.txt-petshop {
+    border: 3px solid $coral;
+}
+.txt-petshop:hover {
+    background-color: $coral;
+}
+.btn-comprar {
+    border: $bordesnegros;
+    background-color: map-get($map: $botones, $key: comprar);
+    color: $blanco;
+}
+.btn-comprar:hover {
+    color: $dorado;
+    background-color: $blanco;
+    border: 1px solid $dorado;
+}
+.btn-adoptar {
+    @include estiloboton;
+}
+.btn-turnos {
+    @include estiloboton;
+}
+

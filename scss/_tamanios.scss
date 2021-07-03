@@ -1,0 +1,146 @@
+$fuentetitulo: 43px;
+$fuentesubtitulo:35px;
+$fuentetexto-lg: 25px;
+$fuentetexto-md: 20px;
+$fuentetexto-sm: 15px;
+$cero: 0px;
+$centro:auto;
+$paddingsm:10px;
+$paddingxs:5px;
+$paddingmd:35px;
+$dorado: #b29962;
+$colorbg:#D1C8BE;
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&family=Vollkorn:wght@400;500;600&display=swap");
+@mixin tamanioboton {
+    margin: $paddingsm;
+    border-radius: $paddingsm;
+    padding: $paddingsm;
+    font-size: $fuentetexto-lg;
+    font-weight: 600;
+}
+* {
+    margin:$cero;
+    padding: $cero;
+    font-family: 'Karla', sans-serif;
+    scroll-behavior: smooth;
+}
+.container-grid-pagina {
+    height: 120vh;
+}
+.seccionprincipal {
+    margin: $cero;
+    height: 110vh;
+    h2 {
+        font-size: $fuentetitulo;
+        margin: $cero;
+        padding: $cero;
+        padding-left: 10%;
+        padding-top: 7%;
+        font-weight: 500;
+    }
+    h3 {
+        font-size: $fuentesubtitulo;
+        font-weight: 400;
+        padding-left: 4.5%;
+        padding-top: 7%;
+    }
+}
+.home-links {
+    margin: 0.5em;
+    display: inline-block;
+    font-size: $fuentetexto-lg;
+    padding: $paddingsm $paddingmd;
+    margin-left: 11%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.border1{
+    padding: 20px 30px 20px 20px;
+}
+.border2 {
+    padding: 20px 68px 20px 56px;
+}
+.border3 {
+    padding: 20px 15px 20px 15px;
+} 
+.portada-servicios {
+    display: inline-block;
+    font-size: $fuentetitulo;
+    font-weight: 500;
+    margin-left: 33%;
+    padding-top: 250px;
+}
+.btn-adoptar {
+    @include tamanioboton;
+}
+.btn-turnos {
+    @include tamanioboton;
+}
+.footer-rrss-text {
+    padding: $paddingsm;
+    font-size: $fuentetexto-lg;
+}
+.footer-text {
+    font-size: $fuentetexto-sm;
+}
+.footer-email {
+    font-size: $fuentetexto-sm;
+    padding: 3px;
+    text-transform: uppercase;
+}
+.btn-footer {
+    border-radius: 0.5px;
+    padding: 2px $paddingxs;
+    &:hover {
+        transition: 1s;
+    }
+}
+.servicios {
+    width: 100%;
+    height: 565px;
+}
+.portada-servicios::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+.portada-servicios:hover::after {
+    width: 100%;
+}
+.servicios-row {
+    overflow-x: hidden;
+    margin: 5%;
+    text-align: center;
+    font-size: $fuentetexto-sm;
+}
+.servicios-row {
+    margin: 5%;
+    font-size: $fuentetexto-sm;
+}
+.petshop-titulo {
+    height: 500px;
+    width: 100%;
+}
+.servicios-column {
+    padding: $paddingsm;
+    border-radius: 3px;
+    box-sizing: border-box;
+    transition: 2s;
+}
+.minombre {
+    text-align: center;    
+    font: normal normal bold 15px Playfair Display;
+    font-weight: 400;
+    margin-top: $paddingmd;
+    cursor: pointer;
+}
+.minombre a{
+    text-decoration: none;
+    transition: 2s;
+}

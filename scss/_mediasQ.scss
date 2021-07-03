@@ -1,0 +1,153 @@
+@media only screen and (max-width: 768px) {
+    .container-grid-pagina {
+        overflow-x: hidden;
+        background-image: linear-gradient(rgba(232, 221, 200, 0.8),rgba(172, 167, 151, 0.614)), url(../assets/img/fondo-mobile2.jpg);
+        background-size: cover;
+        height: 110vh;
+    }
+    .nombre {
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .nav-link {
+        font-weight: 700;
+    }
+    .seccionprincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionprincipal h2 {
+        padding: 0px;
+        font-size: 40px;
+        text-align: center;
+        color: black;
+    }
+    .seccionprincipal h3 {
+        text-align: center;
+        padding: 0px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        max-width: 95%;
+    }
+    .menu-inicio {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-email {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-footer {
+        margin-left: 5%;
+    }
+    .footer-rrss-item {
+        justify-content: flex-start;
+    }
+    .txt-petshop {
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .petshop-titulo {
+        background-image:linear-gradient(rgba(172, 167, 151, 0.8),rgba(172, 167, 151, 0.614)), url(../assets/img/fondo-petshop-mb.png);
+        margin: 0;
+        text-align: center;
+        height: 50vh;
+    }
+    .petshop-titulo h2{
+        margin: 0;
+        padding-top: 10%;
+    }
+    .prod-row {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .prod-col {
+        margin: 0;
+    }
+    .carousel {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .seccionadoptar {
+        justify-content: center;
+    }
+    .adoptar-texto1 {
+        font-size: 28px;
+        padding: 5px;
+    }
+    .adoptar-texto2 {
+        padding: 15px;
+        font-size: 25px;
+    }
+    .adoptar-texto3 {
+        padding: 20px;
+        font-size: 25px;
+    }
+    .servicios {
+        height: 90vh;
+    }
+    .portada-servicios {
+        padding-top: 220px;
+        margin-left: 22%;
+    }
+    .servicios-column h3 {
+        font-size: 25px;
+    }
+    .servicios-column p {
+        display: none;
+    }
+    .turnos-texto {
+        font-size: 25px;
+        padding: 50px;
+        padding-top: 80px;
+    }
+    .turnos-texto1 {
+        padding: 15px;
+        font-size: 25px;
+    }
+    .turnos-texto2 {
+        padding: 30px;
+        font-size: 25px;
+    }
+}
+@media only screen and (min-height: 769px) and (max-width: 1100px) {
+    .container-grid-pagina {
+        background-image: linear-gradient(rgba(232, 221, 200, 0.614),rgba(172, 167, 151, 0.514)), url(../assets/img/fondo-mobile.jpg);
+        background-size: cover;
+    }
+    .seccionprincipal {
+        height: 90vh;
+    }
+    .seccionprincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionprincipal h2 {
+        padding: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .seccionprincipal h3 {
+        text-align: center;
+        padding: 0px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        max-width: 95%;
+    }
+    .prod-row {
+        flex-direction: row;
+    }
+    .prod-col {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}

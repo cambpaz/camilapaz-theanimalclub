@@ -1,0 +1,28 @@
+.container-grid-pagina {
+    background-image: url(../assets/img/foto.inicio.jpg);
+    background-size: cover;
+}
+.servicios {
+    background-image: linear-gradient(rgba(232, 221, 200, 0.614),rgba(172, 167, 151, 0.514)), url(../assets/img/portadaservicios.jpg);
+    background-size: cover;
+}
+.petshop-titulo {
+    background-image:linear-gradient(rgba(172, 167, 151, 0.514),rgba(172, 167, 151, 0.514)), url(../assets/img/fondo-petshop-ps.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.seccionadoptar {
+    background-image: linear-gradient(rgba(232, 221, 200, 0.614),rgba(232, 221, 200, 0.414)), url(../assets/img/niña-adoptar.jpg);
+    background-size: cover;
+}
+.seccionturnos {
+    background-image: linear-gradient(rgba(232, 221, 200, 0.614),rgba(232, 221, 200, 0.414)), url(../assets/img/gato-seccionturnos.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.seccioncontacto {
+    background-image: linear-gradient(rgba(232, 221, 200, 0.614),rgba(232, 221, 200, 0.414)), url(../assets/img/seccioncontacto.jpg);
+    background-size: cover;
+    height: 91vh;
+}

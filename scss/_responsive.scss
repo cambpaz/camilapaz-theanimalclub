@@ -1,0 +1,61 @@
+@mixin flex-col{
+    display: flex;
+    flex-direction: column;
+}
+@mixin flex-row-start{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-col-center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+@mixin flex-row-spacearound {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@mixin flex-row-spacebetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@mixin flex-col-spacearound {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+@mixin flex-col-alignend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.home-menu {
+    @include flex-col;
+}
+.rr-ss {
+    @include flex-col-alignend;
+}
+.footer-rrss-item {
+    @include flex-row-center;
+}
+.seccionturnos {
+    @include flex-col-center;
+}
+.servicios-row {
+    @include flex-row-spacearound;
+}
+.footer-flex {
+    @include flex-row-spacebetween;
+}
