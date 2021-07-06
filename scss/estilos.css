@@ -632,8 +632,7 @@ a:visited {
     height: 50vh;
   }
   .petshop-titulo h2 {
-    margin: 0;
-    padding-top: 10%;
+    padding-top: 20%;
   }
   .prod-row {
     display: -webkit-box;
@@ -651,6 +650,11 @@ a:visited {
   .prod-col {
     margin: 0;
   }
+  .seccionadoptar {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(232, 221, 200, 0.614)), to(rgba(232, 221, 200, 0.414))), url(../assets/img/niña-adoptar-mb.jpg);
+    background-image: linear-gradient(rgba(232, 221, 200, 0.614), rgba(232, 221, 200, 0.414)), url(../assets/img/niña-adoptar-mb.jpg);
+    background-size: cover;
+  }
   .carousel {
     width: 100%;
     margin-left: auto;
@@ -660,6 +664,7 @@ a:visited {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    text-align: center;
   }
   .adoptar-texto1 {
     font-size: 28px;
@@ -673,8 +678,16 @@ a:visited {
     padding: 20px;
     font-size: 25px;
   }
+  .adoptar-texto {
+    max-width: 75%;
+  }
   .servicios {
     height: 90vh;
+  }
+  .servicios {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(232, 221, 200, 0.614)), to(rgba(172, 167, 151, 0.514))), url(../assets/img/portadaservicios-mb.jpg);
+    background-image: linear-gradient(rgba(232, 221, 200, 0.614), rgba(172, 167, 151, 0.514)), url(../assets/img/portadaservicios-mb.jpg);
+    background-size: cover;
   }
   .portada-servicios {
     padding-top: 220px;
@@ -685,6 +698,12 @@ a:visited {
   }
   .servicios-column p {
     display: none;
+  }
+  .seccionturnos {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(232, 221, 200, 0.614)), to(rgba(232, 221, 200, 0.414))), url(../assets/img/gato-seccionturnos-mb.jpg);
+    background-image: linear-gradient(rgba(232, 221, 200, 0.614), rgba(232, 221, 200, 0.414)), url(../assets/img/gato-seccionturnos-mb.jpg);
+    background-size: cover;
+    height: 100vh;
   }
   .turnos-texto {
     font-size: 25px;
@@ -698,6 +717,13 @@ a:visited {
   .turnos-texto2 {
     padding: 30px;
     font-size: 25px;
+  }
+  .laboratorio {
+    font-size: 25px !important;
+    padding: 0px !important;
+  }
+  .cirugia {
+    padding: 30px !important;
   }
 }
 
