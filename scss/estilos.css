@@ -775,5 +775,13 @@ a:visited {
         flex-basis: 50%;
     max-width: 50%;
   }
+  .seccionturnos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
