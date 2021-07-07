@@ -165,6 +165,11 @@
   transition: 2s;
 }
 
+.minombre:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 li {
   list-style-type: none;
 }
@@ -518,6 +523,11 @@ a:visited {
   text-decoration: none;
   -webkit-transition: 2s;
   transition: 2s;
+}
+
+.minombre:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .container-grid-pagina {
