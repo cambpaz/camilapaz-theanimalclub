@@ -565,7 +565,7 @@ a:visited {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(232, 221, 200, 0.8)), to(rgba(172, 167, 151, 0.614))), url(../assets/img/fondo-mobile2.jpg);
     background-image: linear-gradient(rgba(232, 221, 200, 0.8), rgba(172, 167, 151, 0.614)), url(../assets/img/fondo-mobile2.jpg);
     background-size: cover;
-    height: 110vh;
+    height: 100vh;
   }
   .nombre {
     font-weight: 600;
