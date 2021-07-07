@@ -153,21 +153,13 @@
 
 .minombre {
   text-align: center;
-  font: normal normal bold 15px Playfair Display;
-  font-weight: 400;
-  margin-top: 35px;
-  cursor: pointer;
-}
-
-.minombre a {
-  text-decoration: none;
   -webkit-transition: 2s;
   transition: 2s;
 }
 
 .minombre:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 li {
@@ -513,21 +505,13 @@ a:visited {
 
 .minombre {
   text-align: center;
-  font: normal normal bold 15px Playfair Display;
-  font-weight: 400;
-  margin-top: 35px;
-  cursor: pointer;
-}
-
-.minombre a {
-  text-decoration: none;
   -webkit-transition: 2s;
   transition: 2s;
 }
 
 .minombre:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .container-grid-pagina {

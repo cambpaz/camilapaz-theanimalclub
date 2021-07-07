@@ -134,16 +134,9 @@ $colorbg:#D1C8BE;
     transition: 2s;
 }
 .minombre {
-    text-align: center;    
-    font: normal normal bold 15px Playfair Display;
-    font-weight: 400;
-    margin-top: $paddingmd;
-    cursor: pointer;
-}
-.minombre a{
-    text-decoration: none;
+    text-align: center;
     transition: 2s;
 }
 .minombre:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
