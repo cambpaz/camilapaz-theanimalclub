@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 812px) {
     .container-grid-pagina {
         overflow-x: hidden;
         background-image: linear-gradient(rgba(232, 221, 200, 0.8),rgba(172, 167, 151, 0.614)), url(../assets/img/fondo-mobile2.jpg);
@@ -152,7 +152,7 @@
         padding-top: 30px!important;
     }
 }
-@media only screen and (min-height: 769px) and (max-width: 1400px) {
+@media only screen and (min-width: 813px) and (max-width: 1000px) {
     .container-grid-pagina {
         background-image: url(../assets/img/foto.inicio-ipad.jpg);
         background-size: cover;
