@@ -1,5 +1,5 @@
-$fuentetitulo: 43px;
-$fuentesubtitulo:35px;
+$fuentetitulo: 35px;
+$fuentesubtitulo: 30px;
 $fuentetexto-lg: 25px;
 $fuentetexto-md: 20px;
 $fuentetexto-sm: 15px;
@@ -35,14 +35,14 @@ $colorbg:#D1C8BE;
         font-size: $fuentetitulo;
         margin: $cero;
         padding: $cero;
-        padding-left: 10%;
+        padding-left: 13%;
         padding-top: 7%;
         font-weight: 500;
     }
     h3 {
         font-size: $fuentesubtitulo;
         font-weight: 400;
-        padding-left: 4.5%;
+        padding-left: 6%;
         padding-top: 7%;
     }
 }

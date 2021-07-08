@@ -152,9 +152,9 @@
         padding-top: 30px!important;
     }
 }
-@media only screen and (min-height: 769px) and (max-width: 1100px) {
+@media only screen and (min-height: 769px) and (max-width: 1400px) {
     .container-grid-pagina {
-        background-image: linear-gradient(rgba(232, 221, 200, 0.614),rgba(172, 167, 151, 0.514)), url(../assets/img/fondo-mobile.jpg);
+        background-image: url(../assets/img/foto.inicio-ipad.jpg);
         background-size: cover;
         height: 110vh;
     }
@@ -165,19 +165,25 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
     .seccionprincipal h2 {
         padding: 0px;
         font-size: 40px;
         text-align: center;
+        padding-left: 10%;
+        padding-top: 20px;
     }
     .seccionprincipal h3 {
         text-align: center;
         padding: 0px;
-        padding-top: 5%;
         padding-bottom: 5%;
         max-width: 95%;
+        padding-left: 6%;
+        padding-top: 7%;
+    }
+    .home-menu {
+        padding-left: 100px;
     }
     .prod-row {
         flex-direction: row;
